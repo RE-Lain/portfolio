@@ -182,6 +182,23 @@ nav li.active a {
   line-height: 20px;
   transition: all 200ms ease-in-out;
 }
+.main{
+  font-family: "PT Serif", serif;
+}
+
+.main h1{
+  font-size: 60px;
+  color: #33272a;
+}
+
+.main h3{
+  color: #33272a;
+  font-weight: 100;
+}
+
+.main p a{
+  color: #594a4e;
+}
 
 .not-active:hover {
   color: #33272a;
