@@ -131,3 +131,10 @@ nav li.active a {
         font-size: 14px;
     }
 }
+
+@media(min-width:1030px){
+    .col img{
+        max-width: 85%;
+        max-height: 100%;
+    }
+}
