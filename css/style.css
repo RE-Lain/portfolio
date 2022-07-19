@@ -254,6 +254,22 @@ footer .social-links a {
   transition: all 100ms ease-in-out;
 }
 
+.source{
+  font-family: "PT Serif", serif;
+  font-size: 17px;
+}
+
+.source a{
+  color: #33272a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.source a:hover{
+  text-decoration: underline;
+  color: #33272a;
+}
+
 @media (max-width: 500px) {
   .description {
     padding: 20px 5px;
