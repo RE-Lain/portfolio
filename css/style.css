@@ -138,3 +138,37 @@ nav li.active a {
     max-height: 100%;
   }
 }
+
+.content{
+  font-family: "PT Serif", serif;
+  padding: 20px 60px;
+}
+
+.content h1{
+  font-size: 64px;
+  color: #33272a;
+}
+
+.content p{
+  color: #594a4e;
+}
+
+.content img{
+  border-radius: 3px;
+}
+
+.content a{
+  background-color: #faeee7;
+  color: #33272a;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  line-height: 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.content a:hover{
+  color: #33272a;
+  text-decoration: underline;
+}
