@@ -116,29 +116,6 @@ nav li.active a {
   text-decoration: underline;
 }
 
-@media (max-width: 500px) {
-  .description {
-    padding: 20px 5px;
-    text-align: center;
-  }
-  .description h2 {
-    font-size: 32px;
-  }
-  .description p {
-    font-size: 14px;
-  }
-  .description a {
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 1030px) {
-  .col img {
-    max-width: 85%;
-    max-height: 100%;
-  }
-}
-
 .content {
   font-family: "PT Serif", serif;
   padding: 20px 60px;
@@ -209,4 +186,32 @@ nav li.active a {
 .not-active:hover {
   color: #33272a;
   text-decoration: underline;
+}
+@media (max-width: 500px) {
+  .description {
+    padding: 20px 5px;
+    text-align: center;
+  }
+  .description h2 {
+    font-size: 32px;
+  }
+  .description p {
+    font-size: 14px;
+  }
+  .description a {
+    font-size: 14px;
+  }
+  .work-title{
+    padding: 20px 10px;
+  }
+  .work-title h1{
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1030px) {
+  .col img {
+    max-width: 85%;
+    max-height: 100%;
+  }
 }
