@@ -1,0 +1,117 @@
+#pink {
+  height: 35px;
+  width: 29px;
+  background: radial-gradient(
+    circle,
+    hsla(345, 80%, 70%, 1) 0%,
+    hsla(0, 0%, 100%, 1) 30%
+  );
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#icon-title {
+  font-family: "Press Start 2P", cursive;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #33272a;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #ffc6c7;
+}
+
+.intro {
+  background: #faeee7;
+  text-align: center;
+  padding: 100px 20px;
+  font-family: "PT Serif", serif;
+}
+
+.intro p {
+  font-size: 36px;
+  margin: 0 auto;
+}
+
+.intro h1 {
+  font-size: 96px;
+}
+
+.intro h2 {
+  font-size: 24px;
+  font-style: italic;
+}
+
+.custom {
+  background-color: #ff8ba7;
+  color: #33272a;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  line-height: 27px;
+  transition: all 200ms ease-in-out;
+}
+
+.custom:hover {
+  color: #33272a;
+  text-decoration: underline;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-example {
+  background: #fffffe;
+  font-family: "PT Serif", serif;
+}
+
+.description {
+  padding: 20px 60px;
+  background-color: #faeee7;
+}
+
+.description h2 {
+  font-size: 64px;
+  color: #33272a;
+}
+
+.description p {
+  color: #594a4e;
+}
+
+.description a {
+  background-color: #ffc6c7;
+  color: #594a4e;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  line-height: 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.description a:hover {
+  color: #594a4e;
+  text-decoration: underline;
+}
