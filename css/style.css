@@ -139,25 +139,25 @@ nav li.active a {
   }
 }
 
-.content{
+.content {
   font-family: "PT Serif", serif;
   padding: 20px 60px;
 }
 
-.content h1{
+.content h1 {
   font-size: 64px;
   color: #33272a;
 }
 
-.content p{
+.content p {
   color: #594a4e;
 }
 
-.content img{
+.content img {
   border-radius: 3px;
 }
 
-.content a{
+.content a {
   background-color: #faeee7;
   color: #33272a;
   text-decoration: none;
@@ -168,7 +168,45 @@ nav li.active a {
   transition: all 200ms ease-in-out;
 }
 
-.content a:hover{
+.content a:hover {
+  color: #33272a;
+  text-decoration: underline;
+}
+
+.work-title {
+  font-family: "PT Serif", serif;
+  padding: 20px 60px;
+  color: #33272a;
+}
+
+.work-title h1 {
+  font-size: 60px;
+}
+
+.container h3 {
+  font-family: "PT Serif", serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: #33272a;
+}
+
+.par {
+  color: #594a4e;
+  font-size: 18px;
+}
+
+.not-active {
+  border: #33272a solid 2px;
+  color: #33272a;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  line-height: 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.not-active:hover {
   color: #33272a;
   text-decoration: underline;
 }
