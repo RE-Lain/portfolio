@@ -115,3 +115,19 @@ nav li.active a {
   color: #594a4e;
   text-decoration: underline;
 }
+
+@media(max-width:500px){
+    .description{
+        padding: 20px 5px;
+        text-align: center;
+    }
+    .description h2{
+        font-size: 32px;
+    }
+    .description p{
+        font-size: 14px;
+    }
+    .description a{
+        font-size: 14px;
+    }
+}
